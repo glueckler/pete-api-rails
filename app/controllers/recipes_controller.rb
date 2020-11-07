@@ -10,8 +10,7 @@ class RecipesController < ApplicationController
   # GET /recipes/1
   # GET /recipes/1.json
   def show
-    jsonreturn = { canyouseeme => ' yes i can ' }
-    format.json { render json: jsonreturn }
+    
   end
 
   # GET /recipes/new
